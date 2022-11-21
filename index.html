@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="wrapper">
+        <div class="title">
+          <h2>Выберете фигуру:</h2>
+        </div>
+        <div class="player__choose">
+          <div class="stone item">Камень</div>
+          <div class="scissor item">Ножницы</div>
+          <div class="papper item">Бумага</div>
+        </div>
+        <div class="start__box">
+          <button class="btn__start">Играть</button>
+          <button class="btn__reset">Сброс</button>
+        </div>
+        <div class="result__box hidden">
+          <div class="player__result-box">
+            <p>Ваша фигура:</p>
+            <p class="player__figure"></p>
+          </div>
+          <div class="comp__result-box">
+            <p>Фигура компьютера:</p>
+            <p class="comp__figure"></p>
+          </div>
+          <div class="game__result-box">
+            <p>Результат:</p>
+            <p class="result"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
